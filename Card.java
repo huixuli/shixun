@@ -11,7 +11,6 @@ public class Card {
     public Card(int id, org.opencv.core.Point loc) {
         this.id = id;
         this.count = 0;
-        double po[] = {0.0, 0.0};
         this.loc = loc;
         this.priority = 0;
     }
