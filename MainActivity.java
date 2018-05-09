@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
             ArrayList<Integer> gloup = new ArrayList<Integer>();
             int num = 1;
             for(int i = 1;i<count2;i++){
-                if(pai.get(i).id == pai.get(i-1).id){
+                if(pai.get(per+i).id == pai.get(per+i-1).id){
                     if(i == count2 - 1)
                         gloup.add(num);
                     else
@@ -216,9 +216,9 @@ public class MainActivity extends AppCompatActivity {
             int per = count1 + count2;
             ArrayList<Integer> gloup = new ArrayList<Integer>();
             int num = 1;
-            for(int i = 1;i<count2;i++){
-                if(pai.get(i).id == pai.get(i-1).id){
-                    if(i == count2 - 1)
+            for(int i = 1;i<count3;i++){
+                if(pai.get(per+i).id == pai.get(per+i-1).id){
+                    if(i == count3 - 1)
                         gloup.add(num);
                     else
                         num += 1;
@@ -251,9 +251,9 @@ public class MainActivity extends AppCompatActivity {
             int per = count1 + count2 + count3;
             ArrayList<Integer> gloup = new ArrayList<Integer>();
             int num = 1;
-            for(int i = 1;i<count2;i++){
-                if(pai.get(i).id == pai.get(i-1).id){
-                    if(i == count2 - 1)
+            for(int i = 1;i<count4;i++){
+                if(pai.get(per+i).id == pai.get(per+i-1).id){
+                    if(i == count4 - 1)
                         gloup.add(num);
                     else
                         num += 1;
